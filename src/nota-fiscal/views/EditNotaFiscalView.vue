@@ -5,7 +5,7 @@
     <div>
       <label for="cnpj">CNPJ</label>
 
-      <input type="text" name="cnpj">
+      <input type="text" name="location">
     </div>
 
     <div>
