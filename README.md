@@ -1,5 +1,13 @@
 # emissor-notas-fiscais
 
+Pequeno projeto com exemplo de implementação de arquitetura limpa com 4 camadas.
+
+Para acessar a versão com design modular:
+
+```shell
+git checkout arch/modular
+```
+
 ## Project setup
 ```
 npm install
