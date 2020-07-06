@@ -40,23 +40,14 @@
 </template>
 
 <script>
-import EditNotaFiscalAdapter from '../adapters/edit-nota-fiscal.adapter';
-
-const editNotaFiscalAdapter = EditNotaFiscalAdapter.getInstance();
-
 export default {
   name: 'EditNotaFiscalView',
 
-  async created() {
-    const { atividadeList } = await editNotaFiscalAdapter.getInitialData();
-
-    this.atividadeList = atividadeList;
-  },
-
-  data() {
-    return {
-      atividadeList: undefined,
-    };
+  props: {
+    atividadeList: {
+      type: Array,
+      required: true,
+    },
   },
 
   methods: {

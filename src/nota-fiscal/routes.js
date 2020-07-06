@@ -1,7 +1,7 @@
-import EditNotaFiscalView from './views/EditNotaFiscalView.vue';
+import EditNotaFiscalContainer from './containers/EditNotaFiscalContainer.vue';
 
 export default [{
   path: '/',
   name: 'EditNotaFiscalView',
-  component: EditNotaFiscalView,
+  component: EditNotaFiscalContainer,
 }];
